@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, along with the accompanying article."
+title: "SPANA: Saturating Perturbation Analysis of Noncoding Activity"
+version: "1.0.0"
+license: GPL-2.0-or-later
+abstract: >-
+  SPANA is R code for analyzing pooled noncoding CRISPR tiling screens with
+  two FACS-sorted populations. Guide-level differential abundance is
+  estimated with DESeq2 (SPANA-null), using size factors from an empirically
+  defined null set of test guides identified by iterative sigma clipping,
+  with one-sided depletion and enrichment tests and Benjamini-Hochberg
+  correction. Guide-level effects are then averaged (SPANA-scan) across
+  sliding genomic windows, tested against an empirical permutation null, and
+  merged into peaks. Spatial clustering of significant guides is assessed
+  with a nearest-neighbor permutation test (SPANA-cluster).
+keywords:
+  - CRISPR screen
+  - noncoding
+  - DESeq2
+  - normalization
+  - sliding window
+  - permutation test
+  - R
+authors:
+  - family-names: "Vyas"
+    given-names: "Hitarthi S."
+    affiliation: "University of Michigan"
+  - family-names: "Leix"
+    given-names: "Kyle"
+    affiliation: "University of Michigan"
+  - family-names: "Burugula"
+    given-names: "Bala B."
+    affiliation: "University of Michigan"
+  - family-names: "Paye"
+    given-names: "Sanjana M."
+    affiliation: "University of Michigan"
+  - family-names: "Raut"
+    given-names: "Chinmay"
+    affiliation: "University of Michigan"
+  - family-names: "Speliotes"
+    given-names: "Elizabeth K."
+    affiliation: "University of Michigan"
+  - family-names: "Emmer"
+    given-names: "Brian T."
+    affiliation: "University of Michigan"
+    email: "bemmer@med.umich.edu"

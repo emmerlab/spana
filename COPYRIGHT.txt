@@ -1,0 +1,41 @@
+SPANA: Saturating Perturbation Analysis of Noncoding Activity
+Version 1.0.0
+
+Copyright (C) 2026 The Regents of the University of Michigan
+Emmer Lab
+
+SPANA (SPANA-null.R, SPANA-scan.R, and SPANA-cluster.R) is free software:
+you can redistribute it and/or modify it under the terms of the GNU General
+Public License as published by the Free Software Foundation, either version 2
+of the License, or (at your option) any later version. See LICENSE for the
+full license text.
+
+
+Third-party components
+----------------------
+
+SPANA calls the following software at run time. These components are not
+included in or modified by this repository. Each is installed separately and
+is distributed under its own license.
+
+  R and its base packages (including parallel)
+    License: GPL-2 | GPL-3
+    https://www.r-project.org
+
+  DESeq2 (Bioconductor)
+    License: LGPL (>= 3)
+    https://bioconductor.org/packages/DESeq2
+
+  apeglm (Bioconductor)
+    License: GPL-2
+    https://bioconductor.org/packages/apeglm
+
+  tidyverse (CRAN)
+    License: MIT
+    https://cran.r-project.org/package=tidyverse
+
+  matrixStats (CRAN; installed with DESeq2)
+    License: Artistic-2.0
+    https://cran.r-project.org/package=matrixStats
+
+SPANA-scan and SPANA-cluster use only R and its base packages.
