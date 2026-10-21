@@ -4,6 +4,8 @@ Analysis code accompanying:
 
 > Vyas HS, Leix K, Burugula BB, Paye SM, Raut C, Speliotes EK, Emmer BT. Multimodal functional characterization of the LDLR noncoding landscape. Manuscript in preparation.
 
+Archived version of this code (v1.0.0): https://doi.org/10.5281/zenodo.23545216
+
 ## Overview
 
 SPANA consists of three R scripts that analyze pooled noncoding CRISPR tiling screens with two FACS-sorted populations. SPANA-null runs first; SPANA-scan and SPANA-cluster each use its test-guide results. They were used for the CRISPRn, CRISPRi, and CRISPRa screens in the paper.

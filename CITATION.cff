@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below, along with the accompanying article."
 title: "SPANA: Saturating Perturbation Analysis of Noncoding Activity"
 version: "1.0.0"
+date-released: 2026-10-21
+doi: 10.5281/zenodo.23545216
 license: GPL-2.0-or-later
 repository-code: "https://github.com/emmerlab/spana"
 abstract: >-
