@@ -3,6 +3,7 @@ message: "If you use this software, please cite it as below, along with the acco
 title: "SPANA: Saturating Perturbation Analysis of Noncoding Activity"
 version: "1.0.0"
 license: GPL-2.0-or-later
+repository-code: "https://github.com/emmerlab/spana"
 abstract: >-
   SPANA is R code for analyzing pooled noncoding CRISPR tiling screens with
   two FACS-sorted populations. Guide-level differential abundance is
